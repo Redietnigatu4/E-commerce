@@ -1,16 +1,15 @@
-import p1_img from './dress1.webp'
-import p2_img from './dress2.jpg'
-import p3_img from './dress3.webp'
-import p4_img from './dress4.avif'
-import p5_img from './dress5.jpb'
-import p6_img from './dress6.webp'
-import p7_img from './dress7.webp'
-import p8_img from './dress8.jpg'
-import p9_img from './dress9.webp'
-import p10_img from './dress10.jpg'
-import p11_img from './dress11.jpg'
-
-import p12_img from './men1.webp'
+import p1_img from './product_1.png'
+import p2_img from './product_2.png'
+import p3_img from './product_3.png'
+import p4_img from './product_4.png'
+import p5_img from './product_5.png'
+import p6_img from './product_6.png'
+import p7_img from './product_7.png'
+import p8_img from './product_8.png'
+import p9_img from './product_9.png'
+import p10_img from './product_10.png'
+import p11_img from './product_11.png'
+import p12_img from './product_12.png'
 import p13_img from './men2.jpg'
 import p14_img from './men3.jpg'
 import p15_img from './men4.jpg'
@@ -215,4 +214,6 @@ let all_produduct = [
     
 
 
+
 ]
+export default all_produduct

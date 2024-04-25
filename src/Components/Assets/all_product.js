@@ -10,22 +10,43 @@ import p9_img from './product_9.png'
 import p10_img from './product_10.png'
 import p11_img from './product_11.png'
 import p12_img from './product_12.png'
-import p13_img from './men2.jpg'
-import p14_img from './men3.jpg'
-import p15_img from './men4.jpg'
-import p16_img from './men5.jpg'
-import p17_img from './men6.jpg'
-import p18_img from './men7.jpg'
-import p19_img from './men8.webp'
-import p20_img from './men9.jpg'
-import p21_img from './men10.jpg'
+
+import p13_img from './product_13.png'
+import p14_img from './product_14.png'
+import p15_img from './product_15.png'
+import p16_img from './product_16.png'
+import p17_img from './product_17.png'
+import p18_img from './product_18.png'
+import p19_img from './product_19.png'
+import p20_img from './product_20.png'
+import p21_img from './product_21.png'
+import p22_img from './product_22.png'
+import p23_img from './product_23.png'
+import p24_img from './product_24.png'
 
 
-let all_produduct = [
+import p25_img from './product_25.png'
+import p26_img from './product_26.png'
+import p27_img from './product_27.png'
+import p28_img from './product_28.png'
+import p29_img from './product_29.png'
+import p30_img from './product_30.png'
+import p31_img from './product_31.png'
+import p32_img from './product_32.png'
+import p33_img from './product_33.png'
+import p34_img from './product_34.png'
+import p35_img from './product_35.png'
+import p36_img from './product_36.png'
+
+
+
+
+
+let all_product = [
     {
         id : 1,
         name: "striped Flutter ",
-        category:"Women",
+        category:"men",
         image:p1_img,
         new_price: 50.0,
         old_price: 80.5,
@@ -34,7 +55,7 @@ let all_produduct = [
     {
         id : 2,
         name: "striped Flutter ",
-        category:"Women",
+        category:"men",
         image:p2_img,
         new_price: 50.0,
         old_price: 80.5,
@@ -43,7 +64,7 @@ let all_produduct = [
     {
         id : 3,
         name: "striped Flutter ",
-        category:"Women",
+        category:"men",
         image:p3_img,
         new_price: 50.0,
         old_price: 80.5,
@@ -52,7 +73,7 @@ let all_produduct = [
     {
         id : 4,
         name: "striped Flutter ",
-        category:"Women",
+        category:"men",
         image:p4_img,
         new_price: 50.0,
         old_price: 80.5,
@@ -61,7 +82,7 @@ let all_produduct = [
     {
         id : 5,
         name: "striped Flutter ",
-        category:"Women",
+        category:"men",
         image:p5_img,
         new_price: 50.0,
         old_price: 80.5,
@@ -70,7 +91,7 @@ let all_produduct = [
     {
         id : 6,
         name: "striped Flutter ",
-        category:"Women",
+        category:"men",
         image:p6_img,
         new_price: 50.0,
         old_price: 80.5,
@@ -79,7 +100,7 @@ let all_produduct = [
     {
         id : 7,
         name: "striped Flutter ",
-        category:"Women",
+        category:"men",
         image:p7_img,
         new_price: 50.0,
         old_price: 80.5,
@@ -88,7 +109,7 @@ let all_produduct = [
     {
         id : 8,
         name: "striped Flutter ",
-        category:"Women",
+        category:"men",
         image:p8_img,
         new_price: 50.0,
         old_price: 80.5,
@@ -97,7 +118,7 @@ let all_produduct = [
     {
         id : 9,
         name: "striped Flutter ",
-        category:"Women",
+        category:"men",
         image:p9_img,
         new_price: 50.0,
         old_price: 80.5,
@@ -106,7 +127,7 @@ let all_produduct = [
     {
         id : 10,
         name: "striped Flutter ",
-        category:"Women",
+        category:"men",
         image:p10_img,
         new_price: 50.0,
         old_price: 80.5,
@@ -115,7 +136,7 @@ let all_produduct = [
     {
         id : 11,
         name: "striped Flutter ",
-        category:"Women",
+        category:"men",
         image:p11_img,
         new_price: 50.0,
         old_price: 80.5,
@@ -133,7 +154,7 @@ let all_produduct = [
     {
         id : 13,
         name: "striped Flutter ",
-        category:"Men",
+        category:"women",
         image:p13_img,
         new_price: 50.0,
         old_price: 80.5,
@@ -142,7 +163,7 @@ let all_produduct = [
     {
         id : 14,
         name: "striped Flutter ",
-        category:"Men",
+        category:"women",
         image:p14_img,
         new_price: 50.0,
         old_price: 80.5,
@@ -151,7 +172,7 @@ let all_produduct = [
     {
         id : 15,
         name: "striped Flutter ",
-        category:"Men",
+        category:"women",
         image:p15_img,
         new_price: 50.0,
         old_price: 80.5,
@@ -160,16 +181,17 @@ let all_produduct = [
     {
         id : 16,
         name: "striped Flutter ",
-        category:"Men",
+        category:"women",
         image:p16_img,
         new_price: 50.0,
         old_price: 80.5,
+
 
     },
     {
         id : 17,
         name: "striped Flutter ",
-        category:"Men",
+        category:"women",
         image:p17_img,
         new_price: 50.0,
         old_price: 80.5,
@@ -178,7 +200,7 @@ let all_produduct = [
     {
         id : 18,
         name: "striped Flutter ",
-        category:"Men",
+        category:"women",
         image:p18_img,
         new_price: 50.0,
         old_price: 80.5,
@@ -187,7 +209,7 @@ let all_produduct = [
     {
         id : 19,
         name: "striped Flutter ",
-        category:"Men",
+        category:"women",
         image:p19_img,
         new_price: 50.0,
         old_price: 80.5,
@@ -196,7 +218,7 @@ let all_produduct = [
     {
         id : 20,
         name: "striped Flutter ",
-        category:"Men",
+        category:"women",
         image:p20_img,
         new_price: 50.0,
         old_price: 80.5,
@@ -205,15 +227,149 @@ let all_produduct = [
     {
         id : 21,
         name: "striped Flutter ",
-        category:"Men",
+        category:"women",
         image:p21_img,
         new_price: 50.0,
         old_price: 80.5,
 
     },
-    
+    {
+        id : 22,
+        name: "striped Flutter ",
+        category:"women",
+        image:p22_img,
+        new_price: 50.0,
+        old_price: 80.5,
 
+    },
+    {
+        id : 23,
+        name: "striped Flutter ",
+        category:"women",
+        image:p23_img,
+        new_price: 50.0,
+        old_price: 80.5,
 
+    },
+    {
+        id : 24,
+        name: "striped Flutter ",
+        category:"women",
+        image:p24_img,
+        new_price: 50.0,
+        old_price: 80.5,
+
+    },
+    {
+        id : 25,
+        name: "striped Flutter ",
+        category:"kid",
+        image:p25_img,
+        new_price: 50.0,
+        old_price: 80.5,
+
+    },
+    {
+        id : 26,
+        name: "striped Flutter ",
+        category:"kid",
+        image:p26_img,
+        new_price: 50.0,
+        old_price: 80.5,
+
+    },
+    {
+        id : 27,
+        name: "striped Flutter ",
+        category:"kid",
+        image:p27_img,
+        new_price: 50.0,
+        old_price: 80.5,
+
+    },
+    {
+        id : 28,
+        name: "striped Flutter ",
+        category:"kid",
+        image:p28_img,
+        new_price: 50.0,
+        old_price: 80.5,
+
+    },
+    {
+        id : 29,
+        name: "striped Flutter ",
+        category:"kid",
+        image:p29_img,
+        new_price: 50.0,
+        old_price: 80.5,
+
+    },
+    {
+        id : 30,
+        name: "striped Flutter ",
+        category:"kid",
+        image:p30_img,
+        new_price: 50.0,
+        old_price: 80.5,
+
+    },
+    {
+        id : 31,
+        name: "striped Flutter ",
+        category:"kid",
+        image:p31_img,
+        new_price: 50.0,
+        old_price: 80.5,
+
+    },
+    {
+        id : 32,
+        name: "striped Flutter ",
+        category:"kid",
+        image:p32_img,
+        new_price: 50.0,
+        old_price: 80.5,
+
+    },
+    {
+        id : 33,
+        name: "striped Flutter ",
+        category:"kid",
+        image:p33_img,
+        new_price: 50.0,
+        old_price: 80.5,
+
+    },
+    {
+        id : 34,
+        name: "striped Flutter ",
+        category:"kid",
+        image:p34_img,
+        new_price: 50.0,
+        old_price: 80.5,
+
+    },
+    {
+        id : 35,
+        name: "striped Flutter ",
+        category:"kid",
+        image:p35_img,
+        new_price: 50.0,
+        old_price: 80.5,
+
+    },
+    {
+        id : 36,
+        name: "striped Flutter ",
+        category:"kid",
+        image:p36_img,
+        new_price: 50.0,
+        old_price: 80.5,
+
+    },
+   
+   
 
 ]
-export default all_produduct
+export default all_product

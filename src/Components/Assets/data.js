@@ -1,42 +1,42 @@
-import p1_img from './product_1.png'
-import p2_img from './product_2.png'
-import p3_img from './product_3.png'
-import p4_img from './product_4.png'
+import p13_img from './product_13.png'
+import p14_img from './product_14.png'
+import p15_img from './product_15.png'
+import p16_img from './product_16.png'
  
 let data_product = [
     {
-        id : 1,
+        id : 13,
         name: "striped Flutter ",
         category:"Women",
-        image:p1_img,
+        image:p13_img,
         
         new_price: 50.0,
         old_price: 80.5,
 
     },
     {
-        id : 2,
+        id : 14,
         name: "striped Flutter ",
         category:"Women",
-        image:p2_img,
+        image:p14_img,
         new_price: 50.0,
         old_price: 80.5,
 
     },
     {
-        id : 3,
+        id : 15,
         name: "striped Flutter ",
         category:"Women",
-        image:p3_img,
+        image:p15_img,
         new_price: 50.0,
         old_price: 80.5,
 
     },
     {
-        id : 4,
+        id : 16,
         name: "striped Flutter ",
         category:"Women",
-        image:p4_img,
+        image:p16_img,
         new_price: 50.0,
         old_price: 80.5,
 

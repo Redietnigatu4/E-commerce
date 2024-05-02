@@ -42,3 +42,98 @@
   justify-content: flex-end;
   padding-top: 50px;
 }
+
+@media(max-width:1280px){
+  .offers{
+    padding: 0px 80px;
+    margin-bottom: 120px;
+  }
+  .offer-left h1{
+    font-size: 40px;
+
+  }
+  .offer-left p{
+    font-size:18px ;
+  }
+  .offer-right img{
+    width: 300px;
+  }
+  .offer-left button{
+    width: 220px;
+    height: 50px;
+    font-size: 18px;
+  }
+  .offer-right{
+    padding-top: 30px;
+  }
+}
+@media(max-width:1028px){
+  .offers{
+    padding: 0px 60px;
+    margin-bottom: 80px;
+    height: 40vh;
+  }
+  .offer-left h1{
+    font-size: 30px;
+
+  }
+  .offer-left p{
+    font-size:16px ;
+  }
+  .offer-right img{
+    width: 200px;
+  }
+  .offer-left button{
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .offer-right{
+    padding-top: 10px;
+  }
+}
+@media(max-width:800px){
+  .offers{
+   
+    margin-bottom: 60px;
+  }
+  .offer-left h1{
+    font-size: 22px;
+
+  }
+  .offer-left p{
+    font-size:13px ;
+  }
+  .offer-right img{
+    width: 180px;
+  }
+  .offer-left button{
+    width: 140px;
+    height: 30px;
+    font-size: 12px;
+  }
+ 
+}
+@media(max-width:500px){
+  .offers{
+    height: 25vh;
+    margin-bottom: 50px;
+  }
+  .offer-left h1{
+    font-size: 16px;
+
+  }
+  .offer-left p{
+    font-size:10px ;
+  }
+  .offer-right img{
+    width: 120px;
+  }
+  .offer-left button{
+    width: 120px;
+    height: 25px;
+    font-size: 10px;
+    margin-top: 12px ;
+  }
+ 
+}

@@ -37,7 +37,7 @@ const ProductDisplay = (props) =>{
             <div className="productdisplay-right-price-old">${product.old_price}</div>
             <div className="productdisplay-right-price-new">${product.new_price}</div>
           </div>
-          <div className="productdisplay-ridht-description">
+          <div className="productdisplay-right-description">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
             Doloremque, ipsam! Veritatis, dolore quia omnis illo dolores quibusdam corrupti
              itaque sequi maxime animi doloremque suscipit ipsum autem,
